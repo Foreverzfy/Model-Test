@@ -17,13 +17,16 @@ We tested the relationship between the Top-1 accuracy of each model and the comp
 
 ### Accuracy and Model Efficiency
 Based on the obtained data, we drew the bubble chart of the relationship between the Top-1 accuracy and the precision density of each model.
-
+<img src="Figure/2.png" width="400">
 
 ### Inference Time and Analysis Comparison
 We get different Batch Size and inference time of different network models on Google Colab platform. See table below. See the paper for inference time on Jetson Nano.
+<img src="Figure/3.png" width="400">
 
 ### Accuracy and Inference Time
 We draw the bubble chart of the relationship between the Top-1 accuracy and FPS of each network model in Google Colab platform. See the paper for the bubble chart of the relationship between Top-1 accuracy and FPS in Jetson Nano.
+<img src="Figure/4.png" width="400">
 
 ### Memory Usage and Model Complexity
 We draw a bubble chart of the relationship between GPU memory consumption and parameter content of different DNNs in Google Colab under Batch Size of 1.
+<img src="Figure/5.png" width="400">
