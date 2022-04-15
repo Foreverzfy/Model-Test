@@ -5,3 +5,14 @@
 * Torchvision
 * [Jetpack](https://developer.nvidia.com/jetpack-sdk-44-archive)-4.4
 * TensorRT 7.1.3
+* [Google Colab](https://www.google.com/intl/zh-CN_ALL/drive/)
+
+## Introduce
+We selected nearly 40 commonly used deep neural network models, and analyzed their cross-platform and cross-reasoning frameworks in depth. By analyzing and comparing the obtained data, the performance of each model can be well grasped, and at the same time, some indexes of untested models can be predicted, which has guiding significance for future experiments and work.
+
+### Accuracy and Model Complexity
+We tested the relationship between the Top-1 accuracy of each model and the complexity of the model, and drew the following bubble chart.
+<img src="Figure/1.png" width="500">
+
+### Accuracy and Model Efficiency
+Based on the obtained data, we drew the bubble chart of the relationship between the Top-1 accuracy and the precision density of each model.
