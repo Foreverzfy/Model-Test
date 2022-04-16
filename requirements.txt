@@ -1,0 +1,6 @@
+numpy
+torch>=1.7
+torchvision
+GPUtil
+json
+pandas
