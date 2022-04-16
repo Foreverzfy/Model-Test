@@ -7,6 +7,7 @@
 * TensorRT 7.1.3
 * [Google Colab](https://www.google.com/intl/zh-CN_ALL/drive/)
 * [SPSS](https://www.ibm.com/analytics/spss-statistics-software)
+* [OriginLab](https://www.originlab.com/)
 
 ## Introduce
 We selected nearly 40 commonly used deep neural network models, and analyzed their cross-platform and cross-reasoning frameworks in depth. By analyzing and comparing the obtained data, the performance of each model can be well grasped, and at the same time, some indexes of untested models can be predicted, which has guiding significance for future experiments and work. Some results are given below, and the specific results are shown in the paper.
