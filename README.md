@@ -17,7 +17,6 @@ We tested the relationship between the Top-1 accuracy of each model and the comp
 
 <img src="Figure/1.png" width="400">
 
-<img src="Figure/Top-1.gif" width="500">
 
 ### Accuracy and Model Efficiency
 Based on the obtained data, we drew the bubble chart of the relationship between the Top-1 accuracy and the precision density of each model.
