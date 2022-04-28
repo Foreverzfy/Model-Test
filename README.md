@@ -13,11 +13,11 @@
 We selected nearly 40 commonly used deep neural network models, and analyzed their cross-platform and cross-reasoning frameworks in depth. By analyzing and comparing the obtained data, the performance of each model can be well grasped, and at the same time, some indexes of untested models can be predicted, which has guiding significance for future experiments and work. Some results are given below, and the specific results are shown in the paper.
 
 ### Accuracy and Model Complexity
-We tested the relationship between the Top-1 accuracy of each model and the complexity of the model, drew the following bubble chart, and gave the drawing process.
+We tested the relationship between the Top-1 accuracy of each model and the complexity of the model, drew the following bubble chart, and gave the drawing process.(The drawing process of all subsequent bubble charts is similar.)
 
 <img src="Figure/1.png" width="400">
 
-<img src="Figure/Top-1.gif" width="400">
+<img src="Figure/Top-1.gif" width="500">
 
 ### Accuracy and Model Efficiency
 Based on the obtained data, we drew the bubble chart of the relationship between the Top-1 accuracy and the precision density of each model.
