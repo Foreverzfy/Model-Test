@@ -5,7 +5,7 @@
 <div align="center">
   <a href="#dependencies"><b>Dependencies</b></a> |
   <a href="#introduce"><b>Introduce</b></a> |
-  <a href="#introduce"><b>Dynamic Example</b></a>
+  <a href="https://github.com/Foreverzfy/Model-Test/Figure/Top-1.gif"><b>Dynamic Example</b></a>
 </div>  
  
 ## Dependencies
