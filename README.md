@@ -1,4 +1,6 @@
-# Analysis of High Performance Heterogeneous Computing Performance Based on Cloud Platform and Edge Platform
+<h1 align="center">
+  Analysis of High Performance Heterogeneous Computing Performance Based on Cloud Platform and Edge Platform
+
 ## Dependencies:
 * Python 2.7
 * [PyTorch](https://pytorch.org/) 1.9.0
