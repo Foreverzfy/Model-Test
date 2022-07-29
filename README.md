@@ -1,7 +1,14 @@
 <h1 align="center">
   Analysis of High Performance Heterogeneous Computing Performance Based on Cloud Platform and Edge Platform
-
-## Dependencies:
+</h1>
+ 
+<div align="center">
+  <a href="#dependencies"><b>Dependencies</b></a> |
+  <a href="#introduce"><b>Introduce</b></a> |
+  <a href="#introduce"><b>Dynamic Example</b></a>
+</div>  
+ 
+## Dependencies
 * Python 2.7
 * [PyTorch](https://pytorch.org/) 1.9.0
 * Torchvision
@@ -19,8 +26,10 @@ We tested the relationship between the Top-1 accuracy of each model and the comp
 
 <img src="Figure/1.png" width="400">
 
-<img src="Figure/Top-1.gif" width="400">
-
+<h5>
+  <img src="Figure/Top-1.gif" width="400">
+</h5>
+ 
 ### Accuracy and Model Efficiency
 Based on the obtained data, we drew the bubble chart of the relationship between the Top-1 accuracy and the precision density of each model.
 
