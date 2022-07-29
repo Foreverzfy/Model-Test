@@ -3,6 +3,13 @@
 </h1>
  
 <div align="center">
+  <a href="https://pypi.org/project/pytorch/"><img src="https://img.shields.io/badge/pypi-v1.0.2-blue"></a>
+  <a href="https://docs.nvidia.com/deeplearning/tensorrt/archives/tensorrt-713/install-guide/index.html"><img src="https://img.shields.io/badge/TensorRT-v7.1.3-blue"></a>
+  <a href="https://www.ibm.com/products/spss-statistics"><img src="https://img.shields.io/badge/SPSS-v20-green"></a>
+  <a href="https://www.originlab.com/index.aspx?go=PRODUCTS/Origin"><img src="https://img.shields.io/badge/Origin-v2019b-green"></a>
+</div>
+  
+<div align="center">
   <a href="#dependencies"><b>🛠️Dependencies</b></a> |
   <a href="#introduce"><b>📘Introduce</b></a> |
   <a href="https://github.com/Foreverzfy/Model-Test/blob/master/Figure/Top-1.gif"><b>👀Dynamic Example</b></a>
@@ -10,10 +17,10 @@
  
 ## Dependencies
 * Python 2.7
-* [PyTorch](https://pytorch.org/) 1.9.0
+* [PyTorch1.9.0](https://pytorch.org/) 
 * Torchvision
-* [Jetpack](https://developer.nvidia.com/jetpack-sdk-44-archive)-4.4
-* TensorRT 7.1.3
+* [Jetpack-4.4](https://developer.nvidia.com/jetpack-sdk-44-archive)
+* [TensorRT 7.1.3](https://docs.nvidia.com/deeplearning/tensorrt/archives/tensorrt-713/install-guide/index.html)
 * [Google Colab](https://www.google.com/intl/zh-CN_ALL/drive/)
 * [SPSS](https://www.ibm.com/analytics/spss-statistics-software)
 * [OriginLab](https://www.originlab.com/)
