@@ -1,3 +1,7 @@
+<div align="center">
+  <img src="Figure/cat and dog.png" width="200">
+</div>
+
 <h1 align="center">
   Analysis of High Performance Heterogeneous Computing Performance Based on Cloud Platform and Edge Platform
 </h1>
