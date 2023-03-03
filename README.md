@@ -46,19 +46,20 @@ Based on the obtained data, we drew the bubble chart of the relationship between
 
 <img src="Figure/2.png" width="400">
 
-### Reasoning Time and Analysis Comparison
+### Inference Time and Analysis Comparison
 We get different Batch Size and reasoning time of different network models on Google Colab platform. See table below. See the paper for Reasoning time on Jetson Nano.
 
 <img src="Figure/3.png" width="400">
 
 ### Accuracy and Inference Time
-We draw the bubble chart of the relationship between the Top-1 accuracy and FPS of each network model in Google Colab platform. See the paper for the bubble chart of the relationship between Top-1 accuracy and FPS in Jetson Nano.
+We draw the bubble chart of the relationship between the Top-1 accuracy vs. images per second (FPS) of network models on the platforms of (a)Colab and, (b)Jetson Nano under the PyTorch inference framework, and (c) Jetson Nano under the TensorRT inference frameworks (batch size=1)
 
 <img src="Figure/4.png" width="400">
-
+(a)
 <img src="Figure/5.png" width="400">
-
+(b)
 <img src="Figure/6.PNG" width="400">
+(c)
 
 ### Memory Usage and Model Complexity
 We draw a bubble chart of the relationship between GPU memory consumption and parameter content of different DNNs in Google Colab under Batch Size of 1.
