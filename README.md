@@ -56,7 +56,7 @@ We draw the bubble chart of the relationship between the Top-1 accuracy and FPS 
 
 <img src="Figure/4.png" width="400">
 
-<img src="Figure/5.PNG" width="400">
+<img src="Figure/5.png" width="400">
 
 <img src="Figure/6.PNG" width="400">
 
