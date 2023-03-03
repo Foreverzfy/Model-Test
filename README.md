@@ -55,7 +55,9 @@ We get different Batch Size and reasoning time of different network models on Go
 We draw the bubble chart of the relationship between the Top-1 accuracy and FPS of each network model in Google Colab platform. See the paper for the bubble chart of the relationship between Top-1 accuracy and FPS in Jetson Nano.
 
 <img src="Figure/4.png" width="400">
+
 <img src="Figure/5.PNG" width="400">
+
 <img src="Figure/6.PNG" width="400">
 
 ### Memory Usage and Model Complexity
