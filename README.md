@@ -1,3 +1,7 @@
+<div align="center">
+  <img src="Figure/cat and dog.png" width="200">
+</div>
+
 <h1 align="center">
   Analysis of High Performance Heterogeneous Computing Performance Based on Cloud Platform and Edge Platform
 </h1>
@@ -47,13 +51,15 @@ We get different Batch Size and reasoning time of different network models on Go
 
 <img src="Figure/3.png" width="400">
 
-### Accuracy and Reasoning Time
+### Accuracy and Inference Time
 We draw the bubble chart of the relationship between the Top-1 accuracy and FPS of each network model in Google Colab platform. See the paper for the bubble chart of the relationship between Top-1 accuracy and FPS in Jetson Nano.
 
 <img src="Figure/4.png" width="400">
+<img src="Figure/5.png" width="400">
+<img src="Figure/6.png" width="400">
 
 ### Memory Usage and Model Complexity
 We draw a bubble chart of the relationship between GPU memory consumption and parameter content of different DNNs in Google Colab under Batch Size of 1.
 
-<img src="Figure/5.png" width="400">
+<img src="Figure/7.png" width="400">
 
