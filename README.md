@@ -30,7 +30,7 @@
 * [OriginLab](https://www.originlab.com/)
 
 ## Introduce
-We selected nearly 40 commonly used deep neural network models, and analyzed their cross-platform and cross-reasoning frameworks in depth. By analyzing and comparing the obtained data, the performance of each model can be well grasped, and at the same time, some indexes of untested models can be predicted, which has guiding significance for future experiments and work. Some results are given below, and the specific results are shown in the paper.
+We selected nearly 40 commonly used deep neural network models, and analyzed their cross-platform and cross-inference frameworks in depth. By analyzing and comparing the obtained data, the performance of each model can be well grasped, and at the same time, some indexes of untested models can be predicted, which has guiding significance for future experiments and work. Some results are given below, and the specific results are shown in the paper.
 
 ### Accuracy and Model Complexity
 We tested the relationship between the Top-1 accuracy of each model and the complexity of the model, drew the following bubble chart, and gave the drawing process.(The drawing process of all subsequent bubble charts is similar.)
@@ -42,12 +42,12 @@ We tested the relationship between the Top-1 accuracy of each model and the comp
 </h5>
  
 ### Accuracy and Model Efficiency
-Based on the obtained data, we drew the bubble chart of the relationship between the Top-1 accuracy and the precision density of each model.
+Based on the obtained data, we drew the bubble chart of the relationship between the Top-1 accuracy and the accuracy density of each model.
 
 <img src="Figure/2.png" width="400">
 
 ### Inference Time and Analysis Comparison
-We get different Batch Size and reasoning time of different network models on Google Colab platform. See table below. See the paper for Reasoning time on Jetson Nano.
+We get different Batch Size and inference time of different network models on Google Colab platform. See table below. See the paper for inference time on Jetson Nano.
 
 <img src="Figure/3.png" width="400">
 
