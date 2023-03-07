@@ -20,7 +20,7 @@
 </div>  
  
 ## Dependencies
-* Python 2.7
+* Python 3.7
 * [PyTorch1.9.0](https://pytorch.org/) 
 * Torchvision
 * [Jetpack-4.4](https://developer.nvidia.com/jetpack-sdk-44-archive)
