@@ -3,7 +3,7 @@
 </div>
 
 <h1 align="center">
-  Analysis of High Performance Heterogeneous Computing Performance Based on Cloud Platform and Edge Platform
+  Comprehensive Analysis of Heterogeneous Computing Performance of DNNs under typical frameworks on Cloud and Edge Computing Platforms
 </h1>
  
 <div align="center">
@@ -20,7 +20,7 @@
 </div>  
  
 ## Dependencies
-* Python 2.7
+* Python 3.7
 * [PyTorch1.9.0](https://pytorch.org/) 
 * Torchvision
 * [Jetpack-4.4](https://developer.nvidia.com/jetpack-sdk-44-archive)
