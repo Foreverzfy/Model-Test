@@ -29,6 +29,32 @@
 * [SPSS](https://www.ibm.com/analytics/spss-statistics-software)
 * [OriginLab](https://www.originlab.com/)
 
+## Usage
+
+### Installation
+Please refer to official website for the installation of [pytorch](https://pytorch.org/get-started/previous-versions/) and [dataset preparation](https://pytorch.org/tutorials/beginner/basics/data_tutorial.html).
+
+### Train and Test
+Test the total parameters and G-FLOP value of each network model, run:
+```
+python flop.py
+```
+
+Use PyTorch framework to train and test, and run the following command at the terminal.
+```
+# train and test AlexNet
+python AlexNet_test.py
+
+# train and test other network models
+python other_test.py
+```
+
+When using TensorRT framework to accelerate, you can run the following command to convert the trained pth file into an onnx file.
+You can refer to the tutorial given by [NVIDIA official website](https://github.com/dusty-nv/jetson-inference) and run TensorRT to accelerate.
+```
+python pth_onnx.py
+```
+
 ## Introduce
 We selected nearly 40 commonly used deep neural network models, and analyzed their cross-platform and cross-inference frameworks in depth. By analyzing and comparing the obtained data, the performance of each model can be well grasped, and at the same time, some indexes of untested models can be predicted, which has guiding significance for future experiments and work. Some results are given below, and the specific results are shown in the paper.
 
