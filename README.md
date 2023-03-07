@@ -3,7 +3,7 @@
 </div>
 
 <h1 align="center">
-  Analysis of High Performance Heterogeneous Computing Performance Based on Cloud Platform and Edge Platform
+  Comprehensive Analysis of Heterogeneous Computing Performance of DNNs under typical frameworks on Cloud and Edge Computing Platforms
 </h1>
  
 <div align="center">
