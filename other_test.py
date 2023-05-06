@@ -53,7 +53,7 @@ print("Using {} device".format(device))
 
 
 
-model = torch.hub.load('pytorch/vision:v0.10.0', 'vgg11', pretrained=True).to(device)
+model = torch.hub.load('pytorch/vision:v0.10.0', 'vgg11', pretrained=True).to(device) #VGG series model, Resnet series model and so on
 #model = torch.hub.load('PingoLH/Pytorch-HarDNet', 'hardnet68', pretrained=True).to(device) #68 85 68ds 39ds
 #model = torch.hub.load('rwightman/pytorch-dpn-pretrained', 'dpn131', pretrained=True).to(device) #68 92 98 107 131
 model.eval()
