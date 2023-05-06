@@ -86,7 +86,7 @@ class AlexNet(nn.Module):
             nn.Linear(in_features=4096, out_features=4096),
             nn.ReLU(),
             nn.Dropout(0.5),
-            nn.Linear(in_features=4096, out_features=10),
+            nn.Linear(in_features=4096, out_features=100),
         )
 
     def forward(self, x):
@@ -168,7 +168,7 @@ def evaluteTop5(dataloader, model):
 epochs = 100 #
 for t in range(epochs):
     print(f"Epoch {t+1}\n-------------------------------")
-    #train(train_dataloader, model, loss_fn, optimizer)
+    #train(train_dataloader, model, loss_fn, optimizer)     #train model
     startTime = timeit.default_timer() 
     evaluteTop1(test_dataloader, model)
     StartTime = timeit.default_timer()
