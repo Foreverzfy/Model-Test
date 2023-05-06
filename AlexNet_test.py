@@ -20,9 +20,9 @@ import GPUtil
 import json
 import torch.backends.cudnn as cudnn
 
-batch_size = 1  #1 2 4 8 16 32 64
+batch_size = 64  #1 2 4 8 16 32 64
 
-
+# ----- Transform image scale
 transform_train = transforms.Compose([
     #transforms.RandomHorizontalFilp(),
     transforms.RandomCrop(32),
@@ -165,10 +165,10 @@ def evaluteTop5(dataloader, model):
         print('GPU usage',gpu.memoryUsed)
 
 # ----- epochs
-epochs = 100 #
+epochs = 100
 for t in range(epochs):
     print(f"Epoch {t+1}\n-------------------------------")
-    #train(train_dataloader, model, loss_fn, optimizer)     #train model
+    #train(train_dataloader, model, loss_fn, optimizer)     #--- train model
     startTime = timeit.default_timer() 
     evaluteTop1(test_dataloader, model)
     StartTime = timeit.default_timer()
@@ -176,5 +176,6 @@ for t in range(epochs):
     stopTime = timeit.default_timer() 
     print('Top1 time: %5.1fs.'%(StartTime - startTime))
     print('Top5 time: %5.1fs.'%(stopTime - StartTime))
+    #torch.save(model.state_dict(), 'Alexnet.pth')
     #torch.save(model, 'Alexnet.pth')
 print("Done!")

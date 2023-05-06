@@ -20,10 +20,10 @@ import GPUtil
 import json
 import torch.backends.cudnn as cudnn
 
-
+torch.hub._validate_not_a_forked_repo=lambda a,b,c: True
 batch_size = 64  #1 2 4 8 16 32 64
 
-# ----- 图像数据变化
+# ----- Transform image scale
 transform_train = transforms.Compose([
     #transforms.RandomHorizontalFilp(),
     transforms.RandomCrop(32),
@@ -124,11 +124,11 @@ def evaluteTop5(dataloader, model):
         print('Total GPU',gpu.memoryTotal)
         print('GPU usage',gpu.memoryUsed)
 
-
+# ----- epochs
 epochs = 100
 for t in range(epochs):
     print(f"Epoch {t+1}\n-------------------------------")
-    train(train_dataloader, model, loss_fn, optimizer)
+    train(train_dataloader, model, loss_fn, optimizer)    #train model
     startTime = timeit.default_timer() 
     evaluteTop1(test_dataloader, model)
     StartTime = timeit.default_timer()
