@@ -4,3 +4,5 @@ torchvision
 GPUtil
 json
 pandas
+opencv-python-headless
+matplotlib
