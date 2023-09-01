@@ -92,3 +92,18 @@ We draw a bubble chart of the relationship between GPU memory consumption and pa
 
 <img src="Figure/7.png" width="400">
 
+
+## Citation
+If you use our code, please consider cite the following:
+* Feiyu Zhao, Xiaoxuan Wang, Ping Lin, Yongming Chen. Comprehensive analysis of the heterogeneous computing performance of DNNs under typical frameworks on cloud and edge computing platforms. In _Expert Systems with Applications_, _Volume 229_, _Part A_, 2023.
+```
+@article{Zhao2023120475,
+ author = {Feiyu Zhao, Xiaoxuan Wang, Ping Lin, Yongming Chen},
+ year = {2023},
+ title = {Comprehensive analysis of the heterogeneous computing performance of DNNs under typical frameworks on cloud and edge computing platforms},
+ journal = {Expert Systems with Applications},
+ volume = {229, Part A},
+ doi = {10.1016/j.eswa.2023.120475},
+ ISSN = {0957-4174},
+}
+```
